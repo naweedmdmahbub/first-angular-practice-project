@@ -9,6 +9,8 @@ import { AlertsComponent } from './alerts-practice/alerts/alerts.component';
 import { SuccessComponent } from './alerts-practice/success/success.component';
 import { WarningComponent } from './alerts-practice/warning/warning.component';
 import { UserComponent } from './databinding-assignment-practice/user/user.component';
+import { ProductListComponent } from './directive-assignment-practice/product-list/product-list.component';
+import { ProductComponent } from './directive-assignment-practice/product/product.component';
 
 @NgModule({
   declarations: [
@@ -19,6 +21,8 @@ import { UserComponent } from './databinding-assignment-practice/user/user.compo
     SuccessComponent,
     WarningComponent,
     UserComponent,
+    ProductListComponent,
+    ProductComponent,
   ],
   imports: [
     BrowserModule,
